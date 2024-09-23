@@ -1,5 +1,50 @@
-body {
-  font-family: "Kanit";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Start coding here */
+body {
+  font-family: "Kanit";
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.card{
+  width: 510px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 5px;
+  filter: brightness(0.8);
+}
+
+.box{
+  width: 100%;
+  position: relative;
+}
+
+.name{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.location{
+  background-color: #818181;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
