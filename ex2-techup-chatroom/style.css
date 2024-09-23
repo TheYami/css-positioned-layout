@@ -1,1 +1,87 @@
 /* Start coding here */
+/* body {
+    font-family: "sarabun";
+} */
+ * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box  ;
+ }
+ .roomname {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+ }
+ .chatlog {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    
+ }
+ .chat-1,
+ .chat-3 {
+    background-color: #30C759; 
+    }
+.chat-2 {
+    background-color: #E5E5EA
+}
+.chat-4,
+.chat-5 {
+    background-color:gray ;
+    margin-left: 30px;
+}
+.chat-1,.chat-2,.chat-3,.chat-4,.chat-5 {
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 200px;
+}
+.chat-1,.chat-2,.chat-3 {
+    position: relative;
+    left: 1050px;
+    
+}
+.chat-1 {
+    margin-top: 30px;
+    z-index: 5;
+    
+}
+.close {
+    background-color: lightgray;
+    width: 20px;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 225px;
+    left: 1240px;
+    font-size: 20px;
+    color: white;
+}
+.tail-1 {
+ background-color: #30C759;
+ height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 318px;
+  left: 1235px;
+  z-index: 1;
+}
+.tail-2 {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 350px;
+    left: 1236px;
+    z-index: 4;
+}
+.container {
+    background-color: white;
+    z-index: 10;
+}
+/* #30C759 */
+/* left: 1226px; */
+/* left: 1230px; */

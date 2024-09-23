@@ -1,5 +1,48 @@
 body {
   font-family: "Kanit";
 }
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 
 /* Start coding here */
+.container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.placename,
+.place 
+{
+color: white;
+font-size: 20px;
+}
+.place {
+  background-color: gray;
+  width: 80px;
+  text-align: center;
+  padding: 5px 10px;
+}
+.bubbletea {
+  border-radius: 10px;
+}
+.content {
+  border: white solid 5px;
+  position: relative;
+  background-color: white;
+}
+.place {
+  position: absolute;
+  bottom: 245px;
+  left: 547px;
+}
+.placename {
+  position: absolute;
+  bottom: 5px;
+}
