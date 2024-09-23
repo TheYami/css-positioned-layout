@@ -43,6 +43,7 @@ nav h1{
     padding: 10px 20px;
     background-color: #09BE09;
     border-radius: 50px;
+    z-index: 5;
 }
 
 .green-box .emoji{
@@ -51,6 +52,30 @@ nav h1{
     padding: 10px 20px;
     background-color: #09BE09;
     border-radius: 50px;
+    position: relative;
+    z-index: 3;
+}
+
+.circle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #09BE09;
+    right: 15px;
+    z-index: 1;
+}
+
+.circle::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: -10px;
+    right: 0px;
+    z-index: 0;
 }
 
 .whitegray-box{
